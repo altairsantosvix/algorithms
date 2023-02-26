@@ -1,5 +1,9 @@
 package main
 
+import ( 
+    "fmt"
+)
+
 // O(n) time
 // O(1) space
 func FirstDuplicateValue(arr []int) int {
@@ -19,5 +23,15 @@ func absV( n int ) int {
         return -n
     }
      return n
+}
+
+func main() {
+
+    arr := []int{1, 2, 3, 4, 4,5}
+
+    n := FirstDuplicateValue( arr)
+
+    fmt.Printf(" First duplicate value in array is %d \n",  n)
+
 }
 
