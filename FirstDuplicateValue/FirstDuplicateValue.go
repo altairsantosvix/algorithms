@@ -1,8 +1,5 @@
 package FirstDuplicateValue
 
-import ( 
-    "fmt"
-)
 
 // O(n) time
 // O(1) space
